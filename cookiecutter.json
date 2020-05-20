@@ -1,0 +1,8 @@
+{
+  "app_name": "test-app",
+  "app_verbose_name": "Test App",
+  "package_name": "test",
+  "author": "me",
+  "author_email": "me@gmail.com",
+  "url": "https://github.com/me/test-app"
+}
