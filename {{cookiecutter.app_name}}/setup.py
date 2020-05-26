@@ -31,9 +31,9 @@ setup(
     version=VERSION,
     url="{{ cookiecutter.url }}",
     extras_require=extras_require,
-    packages=find_packages(exclude=["tests", "docs"]),
+    packages=find_packages(exclude=["tests", "docs", "scripts"]),
     install_requires=REQUIREMENTS,
-    python_requires=">=3.7,<3.8",
+    python_requires=">=3.7",
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",
