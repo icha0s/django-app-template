@@ -9,4 +9,4 @@ TEMPLATES = [{
 SECRET_KEY = 'NOTREALLY'
 PAYMENT_HOST = 'example.com'
 
-INSTALLED_APPS = ['payments', 'django.contrib.sites']
+INSTALLED_APPS = ['django.contrib.sites', '{{cookiecutter.app_package}}']

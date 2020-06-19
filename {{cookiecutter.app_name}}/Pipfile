@@ -15,6 +15,10 @@ pytest-pythonpath = "*"
 freezegun = "*"
 sphinx = "*"
 rinohtype = "*"
+autoflake = "*"
+pytest-cov = "*"
+codecov = "*"
+twine = "*"
 
 [packages]
 django = "*"

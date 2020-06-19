@@ -11,9 +11,9 @@ test:
   stage: test
   image: python:3.8.2-alpine3.11
   variables:
-    POSTGRES_DB: s1psp
-    POSTGRES_USER: s1psp
-    POSTGRES_PASSWORD: s1psp
+    POSTGRES_DB: db
+    POSTGRES_USER: user
+    POSTGRES_PASSWORD: password
     POSTGRES_HOST: postgres
     PIPENV_VENV_IN_PROJECT: enabled
   services:
